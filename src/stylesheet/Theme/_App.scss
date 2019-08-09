@@ -4,9 +4,9 @@
   width: 100%;
   max-width: 1920px;
   min-height: 1080px;
-  //background: rgba(0, 150, 136, 0.4);
-  background: #009688;
-  opacity: .7;
+  background: rgba(0, 150, 136, 0.4);
+  //background: #009688;
+  //opacity: .7;
 
   .contentContainer {
 
@@ -82,7 +82,6 @@
         width: 150px;
         color: white;
         margin-top: 10px;
-        opacity: 1;
       }
     }
   }
