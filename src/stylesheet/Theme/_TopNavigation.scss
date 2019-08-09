@@ -1,0 +1,53 @@
+.topNavigationContainer {
+  height: 100px;
+  .topNavigationSubContainer {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1170px;
+    display: flex;
+    .navBrand {
+      font-size: 30px;
+      font-family: 'Bungee Outline', sans-serif;
+      color: white;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+      margin-left: auto;
+      width: 100%;
+      max-width: 300px;
+      height: 30px;
+      align-self: center;
+      li {
+        width: 100%;
+        max-width: 75px;
+        text-align: center;
+        a {
+          width: 100%;
+          text-decoration: none;
+          color: white;
+          font-weight: bold;
+        }
+      }
+      .activeLink {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border: 1px solid white;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px){
+  .topNavigationContainer {
+    .topNavigationSubContainer {
+      max-width: 390px;
+      margin: auto;
+    }
+  }
+}
