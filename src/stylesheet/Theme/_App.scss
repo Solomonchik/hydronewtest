@@ -69,6 +69,7 @@
         max-width: 446px;
         border: none;
         padding: 4px 0 4px 4px;
+        resize: vertical;
         &::placeholder {
           color: #009688;
         }
